@@ -1,0 +1,17 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# Example usage: python train.py --data m3fd.yaml
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /work/u5832291/huiern/m3fd_val/infrared  # dataset root dir
+train: ./val.txt  # train images (relative to 'path')  (all train val test pred split updated according to tardal's m3fd copy's split)
+val: ./val.txt  # val images (relative to 'path')
+test: ./val.txt  # test images (optional)
+
+# Classes
+names:
+  0: People
+  1: Car
+  2: Bus
+  3: Lamp
+  4: Motorcycle
+  5: Truck

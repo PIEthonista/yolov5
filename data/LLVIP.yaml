@@ -1,0 +1,13 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# Example usage: python train.py --data LLVIP.yaml
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /work/u5832291/huiern/LLVIP_datasets/LLVIP/LLVIP/infrared  # dataset root dir
+# path: /work/u5832291/huiern/LLVIP_datasets/LLVIP/LLVIP/visible
+train: ./images/train  # train images
+val: ./images/test  # val images
+test:  # test images (optional)
+
+# Classes
+nc: 1  # number of classes
+names: ['person']  # class names
