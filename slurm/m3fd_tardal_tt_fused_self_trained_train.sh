@@ -9,7 +9,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=gohyixian456@gmail.com
 
-# 551106
+# 551182
 srun python train.py --img-size 320 --batch-size 16 --epochs 300 --workers 8 --data m3fd_tardal_tt_fused_self_trained.yaml --weights '' --cfg /work/u5832291/yixian/yolov5_edit/models/yolov5s.yaml --device 0 --save-period 20 --name YOLOv5s_m3fd_tardal_tt_fused_self_trained_20231214
 
 # 551105
